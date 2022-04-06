@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <select name="countries" id="countries">
+                <option value="0" selected disabled>Choose Country</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+            <select name="country" id="country">
+                <option selected disabled>Choose</option>
+            </select>
+            <label for="min">Min Age</label>
+            <input type="text" id="min" />
+            <label for="max">Max Age</label>
+            <input type="text" id="max" />
+            <button class="button">Search</button>
+        </form>
+    </div>
+    <table border="1">
+        <tr>
+            <th id="no">No</th>
+            <th id="name">Player Name</th>
+            <th id="age">Age</th>
+            <th id="birthday">Birthday</th>
+            <th id="height">height</th>
+            <th id="playerid">Player Id</th>
+            <th id="weight">Weight</th>
+        </tr>
+    </table>
+</body>
+
+</html>
